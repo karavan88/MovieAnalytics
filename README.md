@@ -31,9 +31,16 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the main script:
+Run the main script to fetch data from Letterboxd:
 ```bash
 python movie_analytics.py
+```
+
+**Note:** This requires internet access to letterboxd.com.
+
+To see a demo with sample data (works offline):
+```bash
+python demo.py
 ```
 
 The script will:
